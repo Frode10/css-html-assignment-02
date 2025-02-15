@@ -17,7 +17,7 @@ body {
 
 img {
     width: 60px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 h1 {
@@ -25,6 +25,7 @@ h1 {
     font-size:3rem;
     margin-bottom: 2rem;
     color:  hsl(0, 0%, 95%);
+    text-transform: uppercase;
 }
 p {
     line-height: 1.6;
@@ -33,6 +34,7 @@ p {
 }
 
 button {
+    width: fit-content;
     font-weight: 600;
     padding:1rem 2rem;
     border:none;
@@ -66,7 +68,7 @@ section {
 .card{
     display:flex;
     flex-direction: column;
-    padding:4rem 2rem 2rem 2rem;
+    padding:3rem;
     width:100%;
     max-width:300px;
     min-height:500px;
