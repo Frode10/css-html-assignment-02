@@ -29,6 +29,7 @@ h1 {
 p {
     line-height: 1.6;
     color:hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 2rem;
 }
 
 button {
@@ -90,7 +91,6 @@ section {
     }
 
     .card {
-        border-radius: 0px;
         margin-top: 1rem;
     }
     .card:nth-child(1) {
