@@ -39,7 +39,11 @@ button {
     border-radius: 2rem;
     background-color: hsla(0, 0%, 100%, 0.75);
     margin-top: auto; /* for at button alldig er i bunn av card uansett innhold */
-
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+button:hover {
+    background-color: hsla(0, 0%, 100%, 0.90);
+    transform: scale(1.05);
 }
 
 .card1-btn {
